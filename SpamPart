@@ -22,7 +22,7 @@ ToggleUI.MouseButton1Click:Connect(function()
 local Part = Instance.new("Part",workspace)
 Part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame - Vector3.new(0,2.8,0)
 Part.Material = "Plastic"
-Part.Size = Vector3.new(10,0.3,10)
+Part.Size = Vector3.new(12,0.0000001,12)
 Part.Anchored = true
 Part.Color = Color3.new(1)
 task.spawn(function()
